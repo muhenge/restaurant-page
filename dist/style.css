@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 95px;
+  height: 100vh;
+}
+
+ul#nav {
+  display: grid;
+  row-gap: 12px;
+  position: sticky;
+  top: 5%;
+}
+
+#home {
+  color: white;
+}
+
+a#menu,
+a#booking,
+a#contacts {
+  padding:15px;
+  border: none;
+  width: 45vh;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation {
+  margin-top: 55px;
+  height: 100vh;
+}
+
+.page {
+  padding: 55px;
+  background-image: url(images/steck.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  padding: 90px;
+  -webkit-box-shadow: 2px 1px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 1px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 1px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  border: 0px solid #000000;
+  background-color: whitesmoke;
+}
