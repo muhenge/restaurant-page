@@ -3,27 +3,26 @@
   margin: 0;
 }
 
-.content {
+#content {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 6fr;
   grid-gap: 95px;
   height: 100vh;
 }
 
-ul#nav {
+ul.nav {
   display: grid;
-  row-gap: 12px;
-  position: sticky;
+  row-gap: 45px;
+  position: fixed;
   top: 5%;
 }
 
 #home {
   color: white;
+  text-align: center;
 }
 
-a#menu,
-a#booking,
-a#contacts {
+a.menu {
   padding:15px;
   border: none;
   width: 45vh;
