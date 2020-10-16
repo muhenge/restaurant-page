@@ -79,9 +79,14 @@ a.menu {
   -webkit-border-radius: 40px 40px 40px 40px;
   border: 0px solid #000000;
   background: rgba(247, 245, 245, 0.65);
+  margin-bottom: 12px;
   
 }
 
 .menu-img{
   border-radius: 20px;
+  object-fit: cover;
+  width: 35vh;
+  height: 25vh;
+
 }
